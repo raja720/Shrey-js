@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1><span id="count">0</span></h1>
+    <button id="increase">increse</button>
+    <button id="decrease">decrease</button> -->
+
+    <div id="btn">hover or click me </div>
+    <script >
+
+        let btn = document.querySelector("#btn");
+
+        btn.addEventListener("click",function(){
+            document.querySelector("#btn").style.backgroundColor="wheat";
+        });
+        btn.addEventListener("mouseover",function(){
+            document.querySelector("#btn").style.backgroundColor="wheat";
+        })
+        btn.addEventListener("mouseout",function(){
+            btn.innerText = "hover is over";
+        })
+        
+
+    </script>
+
+</body>
+</html>
