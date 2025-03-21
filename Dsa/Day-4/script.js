@@ -1,57 +1,93 @@
-// for (let i = 1; i <= 1; i++){
-//     console.log("hello world");
-// }
-
+// accept a n number and print hello world n times
 // let n = Number(prompt("Enter a number"));
 // if(isNaN(n)){
-//     console.log("Invalid Number");
+//     console.error("Invalid input")
 // }else{
+// let i ;
 
-
-// let i;
-// for( i = 1; i<=n; i++){
-//     console.log('hello world');
+// for ( i = 1; i <=n; i++) {
+//     console.log("hello world");
+    
 // }
 
-// console.log("fail at"+ i);
+// console.log("failed at " + i);
 // }
 
+// let n = Number(prompt("enter a number"));
 
-// //print table of the user number
+// for (let i = n; i >= 1 ; i--) {
+//     console.log(i);
+    
+// }
 
 // let num = Number(prompt("enter a number"));
 
-// for (let i = 1; i <=10 ; i++) {
+// for (let i = 1; i<=10; i++) {
     
-//     console.log(`${num}* ${i} = (${num*i})`);
+//     console.log( `${num} * ${i} = ${num*i}`);
 // }
 
-// sum of the n number
+// Sum of the n number 
 
-// let number = Number(prompt("enter your number"));
+// let n =Number(prompt("enter a number"));
+
 // let sum = 0;
-// for(let i = 1; i<=number; i++){
-//     sum = sum+i;
 
+// for (let i = 1; i <=n; i++) {
+//     sum+= i;
+    
 // }
+
+// console.log(sum);
+
+// Multiple of the n number 
+// let n =Number(prompt("enter a number"));
+
+// let sum = 1;
+
+// for (let i = 1; i <=n; i++) {
+//     sum*= i;
+    
+// }
+
 // console.log(sum);
 
 
-// let number = Number(prompt("enter your number"));
-// let fac = 1;
-// for(let i = 1; i<=number; i++){
-//     fac = fac*i;
+// let n = Number(prompt("enter a number"));
 
-// }
-// console.log(fac);
+// let even = 0 ,odd = 0;
 
-let n = Number(prompt("enter your number"));
-
-let even = 0 , odd = 0;
-for (let i = 0; i <=n; i++) {
-   if(i % 2 == 0)even = even+i;
-   else odd = odd + i;
+// for (let i = 1; i <=n; i++) {
+//    if(i%2 == 0) even= even+i;
+//    else odd = odd+i
     
+// }
+
+
+// console.log("even " + even);
+// console.log("odd " + odd);
+
+//check the factor of the number
+// let n = Number(prompt("enter a number"));
+
+// for (let i = 1; i <=n/2; i++) {
+//     if(n%i == 0) console.log(i);
+    
+// }
+// console.log(n);
+
+let n = Number(prompt("Enter a nunber"));
+
+let isprime = true;
+
+for(let i = 2; i<=n/2 ; i++){
+    if(n%i == 0){
+        isprime=false;
+        break;
+    }
+        
+
 }
-console.log("even" + even );
-console.log("odd" + odd );
+
+if(isprime) console.log("number is prime");
+else console.log("number  is not  prime");
