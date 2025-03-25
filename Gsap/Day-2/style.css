@@ -1,0 +1,28 @@
+*{
+    background-color: black;
+    color: wheat;
+}
+#nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    font-size: x-large;
+}
+
+
+#part2{
+    display: flex;
+    gap: 50px;
+    font-size: x-large;
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 80px;
+    white-space: nowrap;
+}
