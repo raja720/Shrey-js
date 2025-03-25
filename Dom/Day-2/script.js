@@ -1,10 +1,8 @@
+let body = document.querySelector("body");
+let button = document.querySelector("button");
 
-let body = document.querySelector('body');
-let btn = document.querySelector("button");
-
-if(btn)
-btn.addEventListener("click",()=>{
-   body.classList.toggle("dark-mode")
-
-})
-
+if(button){
+   button.addEventListener("click",()=>{
+      body.classList.toggle("dark-mode");
+   })
+}
