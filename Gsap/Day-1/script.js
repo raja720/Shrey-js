@@ -34,11 +34,8 @@ gsap.from("#page1 #box",{
     rotate:360,
     borderRadius:"50%",
     duration:1,
-    scrollTrigger:{
-        tigger:"#pagr1 #box",
-        scroller:"body"
-
-    }
+   
+   
 })
 
 gsap.from("#page2 #box",{
@@ -47,11 +44,8 @@ gsap.from("#page2 #box",{
     rotate:360,
     borderRadius:"50%",
     duration:1,
-    scrollTrigger:{
-        tigger:"#pagr2 #box",
-        scroller:"body"
-
-    }
+     scrollTrigger:"#page2 #box"
+   
 })
 gsap.from("#page3 #box",{
     scale:0,
@@ -59,9 +53,35 @@ gsap.from("#page3 #box",{
     rotate:360,
     borderRadius:"50%",
     duration:1,
+     scrollTrigger:"#page3 #box"
+    
+
+})
+
+gsap.from("#page2 h1",{
+    opacity:0,
+    duration:2,
+    x:500,
     scrollTrigger:{
-        tigger:"#pagr3 #box",
-        scroller:"body"
+        trigger:"#page2 h1",
+        scroller:"body",
+        markers:true,
+        start:"top 50%"
 
     }
+
+})
+
+gsap.from("#page2 h2",{
+    opacity:0,
+    duration:2,
+    x:-500,
+    scrollTrigger:{
+        trigger:"#page2 h2",
+        scroller:"body",
+        markers:true,
+        start:"top 50%"
+
+    }
+
 })

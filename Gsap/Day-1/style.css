@@ -48,6 +48,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 
 }
 #page3{
@@ -64,4 +66,16 @@ h1{
     height: 300px;
     width: 300px;
     background-color: brown;
+}
+
+h1{
+    flex-direction: column;
+    font-size: 100px;
+    background-color: brown;    
+}
+
+h2{
+    flex-direction: column;
+    font-size: 100px;
+    background-color: brown;    
 }
