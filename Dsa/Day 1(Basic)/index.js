@@ -3,21 +3,24 @@
  
 // let a  = 30;
 // let b  = 40;
-// console.log(a+b);
+// console.log(a          +         b);
+     //       operants operator operants 
 
 // Q:-2nd -- Relation btw number and string;
+    
 
 // adding string with another string that give string the process called (concatination);
+// console.log("1"+1);Concatination string + int give string
 // int + int = int (arithmatic)
 // let c = 20;
 // let d = "raja";
 // console.log(typeof(c+d));// output = string;
 
 //type corecion
-// conversion of datatype regarding operator called type corecion
+// conversion of datatype regarding operator called type corecion;
 
-// console.log(1+1);
-// console.log(1-"1"); 
+// console.log("1"+1);Concatination number + int
+// console.log(1-"1");Arithmatic
 
 //Q:- 3 Accept and print the answer
 
@@ -60,9 +63,31 @@
 
 // console.log(14<13 || "13"===13);
 
+
+
 // let i = 11;
 // i=i++ + ++i;
 // console.log(i);
+
+// let a = 10++; //give error beccaude we canot use operator with number
+// console.log(a); // give error
+
+// let b = 20;
+// let c = ++(a--); //this is also give error beacause we cannot use operator with number
+
+
+let a = true;
+let b = ++a; // this is working because true opeartor is give 1 and 1 is number
+console.log(b); // output = 2;
+
+
+// let a = 2;
+// let b = 3;
+// a = a+b 5
+// b = a-b; 2
+// a = a-b 3
+
+ 
 
 
 // let a = 11, b = 22, c;
