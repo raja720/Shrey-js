@@ -29,6 +29,10 @@
 // // let p = Number(prompt("enter principle"));
 // // let r = Number(prompt("enter rate"));
 // // let t = Number(prompt("enter time"));
+// a-p ;
+// a= p*(1+r/100)^t;
+
+// console.log((p*Math.pow(1+r/100,t))-p);
 
 // // console.log((p*Math.pow(1+r/100, t))-p);
 
@@ -52,10 +56,14 @@
 // }
 
 
-let beak = 10;
+let a = 143423423;
+console.log(a.toFixed(2));
 
-for (let i = 1; i <=beak; i++) {
-   if(i == 9) break ;
-   console.log(i);
+
+// let beak = 10;
+
+// for (let i = 1; i <=beak; i++) {
+//    if(i == 9) break ;
+//    console.log(i);
    
-}
+// }
