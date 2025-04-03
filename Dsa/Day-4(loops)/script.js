@@ -43,51 +43,51 @@
 // Multiple of the n number 
 // let n =Number(prompt("enter a number"));
 
-// let sum = 1;
+// let fact = 1;
 
 // for (let i = 1; i <=n; i++) {
 //     sum*= i;
     
 // }
 
-// console.log(sum);
+// console.log(fact);
 
 
 // let n = Number(prompt("enter a number"));
 
-// let even = 0 ,odd = 0;
+//  let evenSum = 0, oddSum = 0;
 
-// for (let i = 1; i <=n; i++) {
-//    if(i%2 == 0) even= even+i;
-//    else odd = odd+i
+//  for (let i = 1; i <= n ; i++) {
+    //     if(i%2 == 0) evenSum = evenSum+i;
+    //     else oddSum = oddSum+i;
     
-// }
+    //  }
+    
+    //  console.log("evenSum "+evenSum);
+    //  console.log("oddSum " +oddSum);
 
-
-// console.log("even " + even);
-// console.log("odd " + odd);
-
-//check the factor of the number
+ // factors of a number;   
 // let n = Number(prompt("enter a number"));
 
-// for (let i = 1; i <=n/2; i++) {
-//     if(n%i == 0) console.log(i);
+// for (let i = 1; i <= n/2 ; i++) {
+//    if(n%i == 0) console.log(i);
     
 // }
 // console.log(n);
 
-let n = Number(prompt("Enter a nunber"));
-
-let isprime = true;
-
-for(let i = 2; i<=n/2 ; i++){
-    if(n%i == 0){
-        isprime=false;
-        break;
-    }
-        
-
+//check the number is prime or not (A number is divided by 1 and itself)
+let n = Number(prompt("enter a number"));
+let isPrime = true
+for (let i = 2; i <= n/2; i++) {
+// (checking the number is divided with another number)
+if(n%i== 0) {
+    isPrime = false;
+    break
+   }
 }
 
-if(isprime) console.log("number is prime");
-else console.log("number  is not  prime");
+if(isPrime) console.log("number is prime");
+else console.log("not a prime number");
+
+
+    
