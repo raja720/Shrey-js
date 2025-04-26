@@ -128,34 +128,31 @@ let ar = [2, 4, 5, 3, 5, 3];
 // }
 // console.log(arr);
 
-let arr = [1, 0, 1, 0, 0, 1];
+// let arr = [1, 0, 1, 0, 0, 1];
 
-let i = 0;
-let j = 0;
+// let i = 0;
+// let j = 0;
 
-while (i < arr.length) {
-  if (arr[i] == 1) {
-    let temp = arr[i];
-    arr[i] = arr[j];
-    arr[j] = temp;
-    j++
-  }
-  i++
-}
-console.log(arr);
+// while (i < arr.length) {
+//   if (arr[i] == 1) {
+//     let temp = arr[i];
+//     arr[i] = arr[j];
+//     arr[j] = temp;
+//     j++
+//   }
+//   i++
+// }
+// console.log(arr);
 
 let arr = [1,2,3,4,5];
-let k = Number(prompt("enter a number"))
 
-for (let j = 1; j <= k ; j++) {
+let temp = arr[0];
 
-    let temp = arr[0]
-
-    for (let i = 0; i < arr.length-1; i++) {
-        arr[i] = arr[i+1]
-
-    }
-    arr[arr.length -1] = temp
-
+for (let i = 0; i < arr.length -1; i++) {
+  arr[i] = arr[i+1];
 }
 console.log(arr);
+arr [arr.length -1] = temp
+
+console.log(arr);
+sd
