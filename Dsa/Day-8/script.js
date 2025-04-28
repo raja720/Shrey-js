@@ -43,7 +43,7 @@ let ar = [2, 4, 5, 3, 5, 3];
 // console.log(sum);
 
 // let arr = [10,24,32,5,34,67];
-// let min = maha[0];
+// let min = arr[0];
 
 // for (let i = 1; i < arr.length; i++) {
 //     if(arr[i]<min){
